@@ -1,0 +1,12 @@
+path: ../output
+train: images/train
+val: images/val
+test: 
+
+#classes
+names:
+  0: car
+  1: van
+  2: bus
+  3: others
+  

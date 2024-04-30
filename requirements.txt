@@ -1,0 +1,10 @@
+ultralytics
+torch
+opencv-python
+lxml
+BeautifulSoup4
+lapx
+
+# #webserver requirements
+# flask
+# werkzeug

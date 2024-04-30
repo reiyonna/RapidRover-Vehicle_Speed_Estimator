@@ -1,0 +1,21 @@
+#python files
+__pycache__/
+*.pyc
+
+#Build output dir
+output/
+/output
+temp/
+
+data/
+
+#yolo runs
+runs/
+
+#config
+.vscode
+
+#videos
+test_videos
+
+*.pt
