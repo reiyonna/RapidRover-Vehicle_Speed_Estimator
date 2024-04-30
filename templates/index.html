@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Upload</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Attach CCTV Footage</h1>
+        <h2>Dynamically Live v/s Existing Media</h2>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" id="file">
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Techy Video Uploader</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+    }
+    header {
+      background-color: #000;
+      padding: 20px 0;
+    }
+    h1 {
+      margin: 0;
+    }
+    input[type="file"] {
+      display: none;
+    }
+    label.upload-btn {
+      background-color: #1f1f1f;
+      color: #fff;
+      padding: 15px 30px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      font-size: 18px;
+      margin-top: 20px;
+      display: inline-block;
+    }
+    label.upload-btn:hover {
+      background-color: #333;
+    }
+    button {
+      background-color: #000;
+      color: #fff;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    button:hover {
+      background-color: #1a1a1a;
+    }
+    .space-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('space-background.jpg') center/cover no-repeat;
+      z-index: -1;
+    }
+  </style>
+</head>
+<body>
+  <div class="space-background"></div>
+  <header>
+    <h1>Video Upload</h1>
+  </header>
+  <main>
+    <h2>Upload Your Video</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <label for="video-upload" class="upload-btn">Select Video File</label>
+      <input type="file" id="video-upload" name="video" accept="video/*" required>
+      <button type="submit">Upload</button>
+    </form>
+  </main>
+</body>
+</html> -->

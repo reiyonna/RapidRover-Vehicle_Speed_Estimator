@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated Video</title>
+</head>
+<body>
+    <h2>Generated Video</h2>
+    <video controls width="600">
+        <source src="{{ url_for('static', filename='videos/test_videos/scene1_01_5sec.mp4/generated_output_scene1_01_5sec.mp4.mp4') }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Processing</title>
+</head>
+<body>
+    <h2>Video Processing</h2>
+    <div id="progressBar"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js"></script>
+    <script>
+        const socket = io.connect('http://localhost:5000');
+
+        socket.on('progress', data => {
+            document.getElementById('progressBar').innerText = data.progress;
+        });
+    </script>
+</body>
+</html>
+ -->
