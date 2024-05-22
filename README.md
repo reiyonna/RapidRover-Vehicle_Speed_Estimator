@@ -31,7 +31,7 @@ To run the speed detection script, follow the steps provided:
  `python main.py -s source/to/video_or_folder_containing_videos` (the path can either be a directory containing videos or a video) 
 * for help with the CLI and to see further commands run `python main.py -h`
 
-# training steps
+# Training steps
 > Note:
 This step is not required unless you want to train it yourself, a pre-trained model is available.
 
