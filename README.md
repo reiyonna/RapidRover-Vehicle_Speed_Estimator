@@ -49,7 +49,7 @@ All of this can be invoked by running a single python command for simplicity.
 #### (automated-installer)
 If you running on a device running linux, we have a bash script that automates the dataset installation and preprocessing of the dataset for you!
 ```bash
-wget https://raw.githubusercontent.com/NihalNavath/YOLOV8-train-on-detrac-dataset/main/setup.sh && chmod u+x setup.sh && ./setup.sh
+wget https://raw.githubusercontent.com/reiyonna/RapidRover-Vehicle_Speed_Estimator/main/setup.sh && chmod u+x setup.sh && ./setup.sh
 ```
 
 #### (Manual installation)
@@ -84,7 +84,7 @@ rm -rf DETRAC-Test-Annotations-XML.zip
 
 2) Clone this git repo
 ```bash
-git clone https://github.com/NihalNavath/YOLOV8-train-on-detrac-dataset.git
+git clone https://github.com/reiyonna/RapidRover-Vehicle_Speed_Estimator
 ```
 3) Navigate to cloned repo 
 ```bash
