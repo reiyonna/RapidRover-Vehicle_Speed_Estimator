@@ -84,7 +84,7 @@ rm -rf DETRAC-Test-Annotations-XML.zip
 
 2) Clone this git repo
 ```bash
-git clone https://github.com/reiyonna/RapidRover-Vehicle_Speed_Estimator
+git clone https://github.com/reiyonna/RapidRover-Vehicle_Speed_Estimator.git
 ```
 3) Navigate to cloned repo 
 ```bash
